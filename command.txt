@@ -1,0 +1,11 @@
+1.command to create controller
+-> php artisan make:controller `controller name`
+
+2.command to create view
+-> php artisan make:view `page name`
+
+3.command to create application
+-> laravel new `name`
+
+4.command to start application 
+-> php artisan serve

@@ -1,0 +1,18 @@
+{{ $variable }} to use variable
+{{ function() }} to use function
+{{ array[] }} to use array
+
+If-else :-
+@if()
+ execute any code 
+@endif
+
+Loop :-
+@for()
+{{}} 
+@endfor
+
+foreach :-
+@foreach()
+{{}}
+@endforeach
