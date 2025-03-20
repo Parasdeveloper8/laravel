@@ -16,3 +16,7 @@ foreach :-
 @foreach()
 {{}}
 @endforeach
+
+Sub View = When a view is inserted in other view then inserted view is sub view.
+---> View can be made using same command for view
+---> You can pass data in sub view

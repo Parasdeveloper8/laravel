@@ -2,11 +2,14 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserCont;
+use App\Http\Controllers\Auth;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
-
+Route::view('/userForm','user-form');
+Route::post('/addUser',[Auth::class,'addUser']);
+/*
 Route::get("/user",[UserCont::class,'getUser']);
 //passing variable in controller
 Route::get("/user/{name}",[UserCont::class,'getUserName']);
@@ -25,3 +28,5 @@ Route::get("/admin",[UserCont::class,'getViewNes']);
 
 //redirect
 #Route::redirect('/home','/');
+
+*/

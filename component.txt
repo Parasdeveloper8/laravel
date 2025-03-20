@@ -1,0 +1,4 @@
+Component := Component is a piece of code which can be used in any part of code
+--> It is reusable
+--> php artisan make:component `name`
+--> You can pass data

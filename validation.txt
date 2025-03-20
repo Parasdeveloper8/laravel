@@ -1,0 +1,10 @@
+validation is easy in laravel
+
+Validation rule means ex- min,max,required,email,etc validations are called validation rule.
+
+You can make own validation rule.
+
+command :=
+ ---> php artisan make:rule `name`
+
+You can also update custom rule

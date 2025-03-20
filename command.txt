@@ -9,3 +9,9 @@
 
 4.command to start application 
 -> php artisan serve
+
+5.Command to make Component
+-> php artisan make:component `name`
+
+6.Command to make rule
+-> php artisan make:rule `name`
