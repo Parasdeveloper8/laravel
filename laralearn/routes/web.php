@@ -7,7 +7,9 @@ use App\Http\Controllers\Auth;
 Route::get('/', function () {
     return view('index');
 });
-Route::view('/userForm','user-form');
+
+//named routes
+Route::view('/userForm','user-form')->name('us');
 Route::post('/addUser',[Auth::class,'addUser']);
 /*
 Route::get("/user",[UserCont::class,'getUser']);
