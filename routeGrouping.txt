@@ -1,0 +1,10 @@
+Route grouping means creating group of routes of same name.
+
+Route group with prefix means whenever we need to create multiple routes with same 
+prefix then we group th prefix.
+Ex :- Route::prefix();
+
+Route group with controller means whenever we use same controller class multiple times.
+To save us from repeating controller class again and again then it comes.
+We group routes and then we don't need to define controller class.
+Ex:- Route::controller()

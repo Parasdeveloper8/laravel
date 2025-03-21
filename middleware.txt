@@ -1,0 +1,7 @@
+We have 3 types of middlewares in laravel 
+1.Global middlewares = Applied on all routes
+2.Route middlewares = Applied on specific routes
+3.Group middlewares
+
+command :=
+--> php artisan make:middleware `name`

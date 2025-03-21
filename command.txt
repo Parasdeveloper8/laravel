@@ -15,3 +15,6 @@
 
 6.Command to make rule
 -> php artisan make:rule `name`
+
+7.Command to make middleware
+-> php artisan make:middleware `name`
