@@ -1,0 +1,8 @@
+Model is a part of MVC architecture.
+It contains business logic and db related operations.
+
+Model name should be in capital and in singular form.
+Model name should also match with table name in db.
+
+command to create model ->
+-- php artisan make:model `name`

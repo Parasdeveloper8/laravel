@@ -18,3 +18,9 @@
 
 7.Command to make middleware
 -> php artisan make:middleware `name`
+
+8.Command to migrate
+-> php artisan migrate
+
+9.Command to create model
+-> php artisan make:model `name`

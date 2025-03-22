@@ -1,7 +1,10 @@
 We have 3 types of middlewares in laravel 
 1.Global middlewares = Applied on all routes
 2.Route middlewares = Applied on specific routes
-3.Group middlewares
+3.Group middlewares = Group of middlewares Applied on single,multiple ,grouped route
+
+-- middleware for specific route are not added in withMiddleware() only global and other 
+types of middlewares are added in this function in bootstrap/app.php
 
 command :=
 --> php artisan make:middleware `name`

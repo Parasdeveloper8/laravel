@@ -1,0 +1,9 @@
+Migration ->
+Migration is a type of version control system for database
+in laravel which helps in defining schema using PHP without
+writing raw sql queries.
+
+command :=
+--> php artisan migrate
+
+set `SESSION_DRIVER = file` to start using manually created database.

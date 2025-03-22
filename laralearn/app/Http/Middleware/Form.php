@@ -6,7 +6,7 @@ use Closure;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
 
-class AgeCheck
+class Form
 {
     /**
      * Handle an incoming request.
@@ -15,11 +15,7 @@ class AgeCheck
      */
     public function handle(Request $request, Closure $next): Response
     {
-    //    if($request->coder != true){
-      //      die("Only for coder");
-       // }
-       echo "age check";
-       echo "<br/>";
+        echo "Middleware for UserForm";
         return $next($request);
     }
 }
