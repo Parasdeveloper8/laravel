@@ -24,3 +24,6 @@
 
 9.Command to create model
 -> php artisan make:model `name`
+
+10.command to inspect model
+-> php artisan model:show `model name`

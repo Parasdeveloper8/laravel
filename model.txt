@@ -6,3 +6,6 @@ Model name should also match with table name in db.
 
 command to create model ->
 -- php artisan make:model `name`
+
+command to inspect model ->
+-- php artisan model:show `model name`

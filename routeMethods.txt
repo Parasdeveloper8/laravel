@@ -1,0 +1,10 @@
+GET :- get from server
+POST :- post on server
+PUT :- updating entire fields
+PATCH :- updating specific field
+DELETE :- deleting 
+VIEW :- render page
+OPTIONS :- used by server
+
+ANY :- when four different route methods call same function use any.
+MATCH :- when a group of different route methods call a same function.

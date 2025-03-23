@@ -1,0 +1,29 @@
+DATABASE:Query Builder
+Query Builder helps us to creating and executing sql queries in convenient way using Database class.
+
+---- Import
+1. `use Illuminate\Support\Facades\DB;`
+
+---- GET
+2.`$res = DB::table('table_name')->get();`
+
+---- Using where
+3.`$res = DB::table('table_name')->where('field_name','value')->get();`
+
+---- getting first result
+4.`$res = DB::table('table_name')->first();` 
+You have to convert result into array 
+
+---- to insert
+5.`$res = DB::table('table_name')->insert([
+    "key"=>"value",
+    "key"=>"value",
+])`
+
+You can do much more things like update,delete,etc.
+
+Eloquent:Query Builder
+When query builder is used with Eloquent model.
+
+In Eloquent ORM we don't define table name because we have created a model of table name
+But in db query builder we define table name.
