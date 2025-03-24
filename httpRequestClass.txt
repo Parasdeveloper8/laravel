@@ -1,0 +1,14 @@
+HTTP request class 
+It is used to get all details related to request
+Ex:= method,form data,etc.
+
+(Request $request)
+
+$request->method()      //to get http request method 
+$request->path()        //to get path
+$request->url()         //to get complete url
+$request->input('name') //to get value of name attribute
+$request->name()        //to get value of property 
+$request->collect() or $request->input()  //get input values
+$request->isMethod('http method name')  // to check which method does request use
+$request->ip()          //to get ip address

@@ -1,0 +1,11 @@
+Flash session is used to store data for once .
+WHen page is refreshed or anything then data will be removed.
+This is used to show success error message
+
+Set flash session 
+    $request->session()->flash('message_key','value');
+
+Use flash session
+    session('message_key');
+
+There are other functions in flash session

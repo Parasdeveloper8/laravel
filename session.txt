@@ -1,0 +1,12 @@
+Session in laravel
+
+to put data in session 
+   $request->session()->put('session_key_name',$request->input('name'));
+
+To redirect use redirect('route');
+
+to get session data
+   session('session_key_name');
+
+to delete session
+   session()->pull('session_key_name');
