@@ -30,3 +30,6 @@
 
 11.To link storage
 -> php artisan storage:link
+
+12.Command for localisation
+-> php artisan lang:publish

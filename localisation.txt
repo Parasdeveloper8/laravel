@@ -1,0 +1,3 @@
+When you wanna give support to multiple languages is called localisation.
+command :=
+ php artisan lang:publish
