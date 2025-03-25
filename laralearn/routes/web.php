@@ -5,6 +5,7 @@ use App\Http\Controllers\UserCont;
 use App\Http\Controllers\Auth;
 use App\Http\Controllers\Person;
 use App\Http\Middleware\Form;
+use App\Http\Controllers\UploadCont;
 
 Route::get('/', function () {
     return view('index');
@@ -17,6 +18,9 @@ Route::view('/userForm','user-form')->middleware(Form::class)->name('us');
 Route::post('/addUser',[Auth::class,'addUser']);
 
 Route::get('/data',[Person::class,'getUsers']);
+
+Route::view('/upload','upload');
+Route::post('/uploadFile',[UploadCont::class,'upload']);
 /*
 Route::get("/user",[UserCont::class,'getUser']);
 //passing variable in controller

@@ -27,3 +27,6 @@
 
 10.command to inspect model
 -> php artisan model:show `model name`
+
+11.To link storage
+-> php artisan storage:link
