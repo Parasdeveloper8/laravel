@@ -33,3 +33,6 @@
 
 12.Command for localisation
 -> php artisan lang:publish
+
+13.Command to create table in migration:=
+--> php artisan make:migration create_name_table

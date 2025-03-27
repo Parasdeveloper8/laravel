@@ -7,3 +7,6 @@ command :=
 --> php artisan migrate
 
 set `SESSION_DRIVER = file` to start using manually created database.
+
+command to create table :=
+--> php artisan make:migration create_name_table

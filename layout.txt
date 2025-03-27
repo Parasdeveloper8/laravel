@@ -1,0 +1,3 @@
+We have layout concept in laravel.
+Layout means template for common UI and reusable UI.
+We can make this like a component.
