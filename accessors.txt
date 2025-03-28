@@ -1,0 +1,2 @@
+When we want to modify data that came from db (not modifying actual db data) then
+we use accessors

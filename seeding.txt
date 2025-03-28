@@ -1,0 +1,7 @@
+Seeding means adding dummy data to database
+
+command to create seeder file
+--> php artisan make:seeder `file name`
+
+command to add dummy data
+--> php artisan db:seed --class=`class name`

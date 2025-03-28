@@ -1,0 +1,12 @@
+Eloquent Relationship
+Relationships in laravel are called Eloquent Relationships.
+This is very powerful feature in laravel to allow devs to work with related data easily.
+Ex (Tables are connected with each other)
+
+Types of Relationships
+1.One to One Relationship : means one row is related to one row of another table.
+
+2.One to many Relationship : means one row is related to multiple rows of another table.
+
+3.Many to one Relationship : means multiple rows of one table is related to single row of
+another table.

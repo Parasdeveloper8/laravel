@@ -36,3 +36,27 @@
 
 13.Command to create table in migration:=
 --> php artisan make:migration create_name_table
+
+14.Command to reset migration :=
+-->  php artisan migrate:reset
+
+15.Command to rollback migration :=
+--> php artisan migrate:rollback
+
+16.Command to refresh migration :=
+--> php artisan migrate:refresh
+
+17.Command to create seeder file
+--> php artisan make:seeder `file name`
+
+18.Command to add dummy data 
+--> php artisan db:seed --class=`class name`
+
+19.Command to go in maintenance mode :=
+--> php artisan down
+
+20.Command to get out of maintenance mode :=
+--> php artisan up
+
+21.Command to keep services available for limited users
+--> php artisan down --secret="dev"

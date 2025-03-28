@@ -10,3 +10,20 @@ set `SESSION_DRIVER = file` to start using manually created database.
 
 command to create table :=
 --> php artisan make:migration create_name_table
+
+to reset migration :=
+--> php artisan migrate:reset
+
+Reset means deleting all migration
+Rollback means removing specific file in migration
+
+to rollback migration :=
+--> php artisan migrate:rollback
+
+we can rollback last two migration using --step flag
+--> php artisan migrate:rollback --step 2
+
+you can refresh migration using
+--> php artisan migrate:refresh
+
+we can migrate only single file using --path flag

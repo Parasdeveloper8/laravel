@@ -1,0 +1,1 @@
+When we modify data before storing in database then it is called Mutators.

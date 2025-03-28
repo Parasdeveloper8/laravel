@@ -1,0 +1,11 @@
+Laravel Maintenance mode 
+It means when you wanna stop your services temporarily then you can use maintenance mode
+
+Command to go in maintenance mode :=
+--> php artisan down
+
+Command to get out of maintenance mode :=
+--> php artisan up
+
+Command to keep services available for limited users
+--> php artisan down --secret="dev"
