@@ -1,0 +1,2 @@
+Route Model Binding
+It means we can get data of whole row using a single key

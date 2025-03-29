@@ -60,3 +60,10 @@
 
 21.Command to keep services available for limited users
 --> php artisan down --secret="dev"
+
+22.Command to generate mail file
+--> php artisan make:mail welcomeMail
+
+23.Command to install package for API 
+--> php artisan install:api
+# sanctum generates API token

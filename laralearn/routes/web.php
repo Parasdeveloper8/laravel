@@ -6,6 +6,7 @@ use App\Http\Controllers\Auth;
 use App\Http\Controllers\Person;
 use App\Http\Middleware\Form;
 use App\Http\Controllers\UploadCont;
+use App\Http\Controllers\mailController;
 
 Route::get('/', function () {
     return view('index');
@@ -21,6 +22,8 @@ Route::get('/data',[Person::class,'getUsers']);
 
 Route::view('/upload','upload');
 Route::post('/uploadFile',[UploadCont::class,'upload']);
+
+Route::get('/mail',[mailController::class,'sendMail']);
 /*
 Route::get("/user",[UserCont::class,'getUser']);
 //passing variable in controller
